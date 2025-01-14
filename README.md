@@ -31,5 +31,5 @@ var frogGame = function(x, s, y) {
 console.log(frogGame([1, 4, 5], [2, 3, 5], [2, 3, 5]));
 ```
 ### 1. Summary
-- **Time Complexity:** \( O(m * n) \)
-- **Space Complexity:** \( O(n + m) \)
+- **Time Complexity:** \O(m * n)\
+- **Space Complexity:** \O(n + m)\
