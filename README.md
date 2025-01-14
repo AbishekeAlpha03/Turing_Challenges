@@ -1,11 +1,11 @@
 # Turing_Challenges
 Repo created to add all the turing challenges solved
 
-## Frog Question
+## 1. Frog Question
 ### Image sourced from Habib-uRehman
 ![turing coding challange 1](https://github.com/user-attachments/assets/6e7167f1-c3e4-4fcb-ad52-a8252760eb51)
 
-## Solution in JavaScript
+## 1. Solution in JavaScript
 ```javascript
 var frogGame = function(x, s, y) {
     const maxValue = Math.max(...y.concat(x)); // Maximum possible position
@@ -30,6 +30,6 @@ var frogGame = function(x, s, y) {
 
 console.log(frogGame([1, 4, 5], [2, 3, 5], [2, 3, 5]));
 ```
-### Summary
+### 1. Summary
 - **Time Complexity:** \( O(m \times n) \)
 - **Space Complexity:** \( O(n + m) \)
